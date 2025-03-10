@@ -1,24 +1,34 @@
 {
   "name": "react-prototype-for-studio",
   "version": "1.0.0",
-  "homepage": "https://VaidaRubyte.github.io/react-prototype-for-studio",
+  "homepage": "https://vaidarubyte.github.io/react-webAR/",
   "dependencies": {
+    "aframe": "^0.1.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.4.0",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "^3.0.1",
     "react-vertical-timeline-component": "^3.5.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "crypto-browserify": "^3.12.1",
+    "customize-cra": "^1.0.0",
+    "gh-pages": "^5.0.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "url-browserify": "^1.3.0",
+    "vm-browserify": "^1.1.2",
+    "zlib-browserify": "^0.0.3"
   },
   "browserslist": {
     "production": [
