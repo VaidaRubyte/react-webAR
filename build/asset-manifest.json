@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-webAR/static/css/main.07e5b270.css",
+    "main.js": "/react-webAR/static/js/main.bf01ebab.js",
+    "index.html": "/react-webAR/index.html",
+    "main.07e5b270.css.map": "/react-webAR/static/css/main.07e5b270.css.map",
+    "main.bf01ebab.js.map": "/react-webAR/static/js/main.bf01ebab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07e5b270.css",
+    "static/js/main.bf01ebab.js"
+  ]
+}
